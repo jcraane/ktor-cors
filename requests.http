@@ -4,10 +4,6 @@ Origin: http://localhost:3000
 
 ###
 
-PATCH localhost:8080/message/1
+GET localhost:8080/messages
 Content-Type: application/json
-Origin: http://localhost:3000
-
-{
-    "message": "Hello World"
-}
+Origin: http://localhost:3000/
